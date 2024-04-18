@@ -20,7 +20,6 @@
 </head>
 
 <body>
-
     <header class="header">
         <div class="nav-container">
             <h2>Cokito Pets</h2>
@@ -130,52 +129,38 @@
 
 
     <div class="servicios-medicos-main">
-        <div class="texto-medicos">
-            <h2>
-                Nuestros medicos brindan una amplia  <br> gama de servicios, desde chequeos de <br> rutina a radiografias
-            </h2>
-        </div>
-        <div id="veterinarios-medicos" class="card cards-medicos-mmain mb-3"> <!-- Ajusta el valor de max-width aquí -->
-            <div class="row g-0">
-              <div class="col-md-8">
-                <div class="card-body">
-                  <p class="card-text">
-                    Nuestros veterinarios han completado una amplia capacitación y educación 
-                    en medicina veterinaria, incluido un título de Doctor en Medicina Veterinaria
-                    de una escuela veterinaria acreditada.
-                    </p>
-                  <ul>
-                    <li>Cirujanos</li>
-                    <li>Dentistas</li>
-                    <li>Oftalmologos</li>
-                  </ul>
-                  <button type="button" class="btn btn-primary">Llamada Gratis</button>
-                  
-                </div>
+      <div class="texto-medicos">
+          <h2>
+              Nuestros médicos brindan una amplia gama de servicios, desde chequeos de rutina a radiografías
+          </h2>
+      </div>
+      <div class="cardd mb-3" style="width: 100%;">
+          <div class="row g-0 flex-row-reverse">
+              <div class="col-md-8 order-md-2">
+                  <div class="card-body">
+                      <p class="card-text">"Nuestros veterinarios han completado una amplia capacitación y educación en medicina veterinaria, lo que incluye la obtención de un título de Doctor en Medicina Veterinaria de una escuela veterinaria acreditada. Están altamente cualificados y dedicados a proporcionar el mejor cuidado posible para tus mascotas. Además de su formación académica, nuestros veterinarios tienen una amplia experiencia práctica en el tratamiento y la atención de una variedad de animales, desde mascotas comunes como perros y gatos hasta animales exóticos. Su pasión por la salud y el bienestar animal los impulsa a mantenerse al día con los últimos avances en medicina veterinaria y a brindar un servicio compasivo y comprensivo a cada animal que atienden. Puedes confiar en nuestros veterinarios para cuidar a tus queridas mascotas como si fueran propias."
+                      </p>
+                  </div>
+                  <div class="listas-medico">
+                    <ul>
+                      <li>Oftamlomogo</li>
+                      <li>kasasdd</li>
+                      <li>kasdasd</li>
+                    </ul>
+                  </div>    
               </div>
-              <div class="col-md-4">
-                <!-- Ajusta la ruta de la imagen y la clase de tamaño -->
-                <img src="/imagenes/servicios-medicos.png" class="img-fluid rounded-end" alt="...">
+              <div class="col-md-4 order-md-1">
+                  <img src="/imagenes/servicios-medicos.png" class="img-fluid rounded-start" alt="...">
+                  <div class="button-container">
+                      <button type="button" id="boton-medico" class="btn btn-primary">Llamada Free</button>
+                  </div>
               </div>
-            </div>
           </div>
-    </div>
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      </div>
+  </div>
+  
+  
+      
 
     <!--Seccion Medicos Capacitados e profesionales en el trabajo -->
 
@@ -184,55 +169,71 @@
             <h2>Nuestros medicos eligen el mejor equipamiento profesional</h2>
         </div>
     </div>
+    <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/imagenes/unsplash_DE6rYp1nAho.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/Rectangle-1.png" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="/imagenes/capture_20240104175500945 1.png" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
 
     <!--SECCION GALERIA-->
-    <div class="galeria-main">
-        <div class="galeria">
-            <p>Mascotas que les dimos amor con la mejor atencion personalizada y el mejor equipo de argentina</p>
 
-            <img src="/imagenes/Rectangle 1.png" alt="Mascotas que le dimos amor">
-        </div>   
-
-        <div class="row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-              <div class="card card-galeria">
-                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="Seccion Galeria">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card card-galeria">
-                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="Seccion galeria 2">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card card-galeria">
-                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="Seccion galeria 3">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card card-galeria">
-                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="Seccion galeria 4">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                </div>
-              </div>
-            </div>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card">
+          <img src="/imagenes/cat-main3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/imagenes/gatito-main.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/imagenes/dog-main.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="/imagenes/cat-main3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
     </div>
+    
+   
 
 
     <!--SECCION FORMULARIO -->
@@ -306,6 +307,7 @@
     
     <!--Importando javascript-->
     <script src="/js/main.js"></script>
-
-</body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js"></script>
+  </body>
 </html> 
