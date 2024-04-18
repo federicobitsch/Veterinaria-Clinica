@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="shortcut icon" href="/imagenes/logo.jpg" type="logo">
     <title>Pets cokito</title>
     <!--BOOTSTRAP-->
@@ -19,7 +20,7 @@
 </head>
 
 <body>
-    
+
     <header class="header">
         <div class="nav-container">
             <h2>Cokito Pets</h2>
@@ -40,32 +41,31 @@
         </div>
     </header>
 
+    <!--Parte inicial-->
     <div class="main-container">
         <h2>Nosotros Somos Mascostas </h2>
         <h3>Amor por las mascotas - Confie en Nosotros </h3>
-
-        <div class="img-main">
-        
+        <div class="img-main">    
             <img src="/imagenes/gatito-main.png" alt="imagen principal">
             <p>
                 Nuestra clínica veterinaria es una instalación compasiva y capacitada dedicada a brindar atención
                 médica de alta calidad para mascotas. 
                 <button id="button-reseñas" type="button" class="btn btn-light">Servicios</button> 
             </p>
-            <img src="/imagenes/dog-main.png" alt="imagen principal">
+            <img src="/imagenes/dog-main.png" alt="Veterinaria de confianza">
             <p>
                 Confíe en nosotros para ser su clínica veterinaria de referencia para todas las necesidades de atención médica de su mascota.
                 <button id="button-reseñas" type="button" class="btn btn-light">Reseñas</button> 
             </p>
-            <img src="/imagenes/cat-main3.png" alt="">
+            <img src="/imagenes/cat-main3.png" alt="Imagen de gatito">
         </div>
     </div>
     
-
+    <!--Nuestros Servicios -->
     <div class="servicios-main">
         <h2>Nuestra Clinica ofrece una amplia gama de servicios. </h2>
             <div class= "img-servicios"> 
-                <div class="card">
+                <div class="card card-servicios-main">
                     <img src="/imagenes/Dog-4.png" class="card-img-top" alt="Odontologia para animales">
                     <div class="card-body">
                     <h5 class="card-title">Odontología para animales</h5>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                    
-                <div class="card">
+                <div class="card card-servicios-main">
                     <img src="/imagenes/Doctor.png" class="card-img-top" alt="documentacion para la mascota">
                     <div class="card-body">
                     <h5 class="card-title">Documentacion de tu mascota</h5>
@@ -84,7 +84,7 @@
                 </div>
                 
 
-                <div class="card">
+                <div class="card card-servicios-main">
                     <img src="/imagenes/Remove-bg 1.png" class="card-img-top" alt="imagen 3 vacunacion">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
@@ -99,8 +99,7 @@
                 </div>  -->
                     
                 <div class="img-servicios">
-
-                    <div class="card">
+                    <div class="card card-servicios">
                         <img src="/imagenes/Remove-bg 2.png" class="card-img-top" alt="Cirugia para mascotas">
                         <div class="card-body">
                           <h5 class="card-title">Card title</h5>
@@ -125,76 +124,64 @@
                           <a href="#" class="btn btn-primary">Go somewhere</a>
                         </div>
                       </div>
-
                 </div>
             </div>
     </div>
 
 
-
-    <!--NUESTRO EQUIPO DE MEDICOS-->
     <div class="servicios-medicos-main">
         <div class="texto-medicos">
             <h2>
-                Nuestros medicos brindan una amplia gama de servicios, desde chequeos de <br> rutina a radiografias
+                Nuestros medicos brindan una amplia  <br> gama de servicios, desde chequeos de <br> rutina a radiografias
             </h2>
         </div>
-
-        <div class="servicios-medicos ">
-            <h2>
-                Nuestros veterinarios han completado una amplia capacitación y educación 
-                en medicina veterinaria, incluido un título de Doctor en Medicina Veterinaria
-                de una escuela veterinaria acreditada.
-            </h2>
-            <ul>
-                <li> Cirujanos </li>
-                <li> Dentistas </li>
-                <li> Oftalmólogos </li>
-            <button type="button" class="btn btn-primary btn-lg">Llamada Gratis </button>
-
-
-            <div class="img-servicios-medicos">
-                <button type="button" class="btn btn-primary btn-lg">Ver mas</button>
-
-                <img src="/imagenes/logo.jpg" alt="imagen servicios medicos ">
+        <div id="veterinarios-medicos" class="card cards-medicos-mmain mb-3"> <!-- Ajusta el valor de max-width aquí -->
+            <div class="row g-0">
+              <div class="col-md-8">
+                <div class="card-body">
+                  <p class="card-text">
+                    Nuestros veterinarios han completado una amplia capacitación y educación 
+                    en medicina veterinaria, incluido un título de Doctor en Medicina Veterinaria
+                    de una escuela veterinaria acreditada.
+                    </p>
+                  <ul>
+                    <li>Cirujanos</li>
+                    <li>Dentistas</li>
+                    <li>Oftalmologos</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary">Llamada Gratis</button>
+                  
+                </div>
+              </div>
+              <div class="col-md-4">
+                <!-- Ajusta la ruta de la imagen y la clase de tamaño -->
+                <img src="/imagenes/servicios-medicos.png" class="img-fluid rounded-end" alt="...">
+              </div>
             </div>
-        </div>
+          </div>
     </div>
+    
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--Seccion Medicos Capacitados e profesionales en el trabajo -->
 
     <div class="medicos-profesionales-main">
         <div class="medicos-profesionales">
             <h2>Nuestros medicos eligen el mejor equipamiento profesional</h2>
-        </div>
-
-        <div class="cards-medicos">
-            <div class="card-equipo" style="background-color: gray;">
-                <p>Todos nuestros equipos cuentan con <br>
-                    certificados de calidad interncionales.
-                </p>
-            
-                <a href="#">Mas informacion </a>
-            </div>
-
-            <!-- Widght 22rem-->
-            <div class="card-principal">
-                <img src="/imagenes/unsplash_DE6rYp1nAho.png" class="card-img-top" alt="...">
-                <div class="card-body">
-                <p class="card-text">Nuestra clínica utiliza medicamentos probados y también los proporciona a nuestros clientes.</p>
-                <a class="button-clinica" href="#">Mas informacion </a>
-                </div>
-
-            </div>
-                <!--Width 12 rem-->
-              <div class="card-secundario">
-                <img src="/imagenes/Rectangle 1.png" class="card-img-top" alt="...">
-              </div>
-
-                <div class="card-secundario">
-                    <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="...">
-                </div>
         </div>
     </div>
 
@@ -204,13 +191,13 @@
         <div class="galeria">
             <p>Mascotas que les dimos amor con la mejor atencion personalizada y el mejor equipo de argentina</p>
 
-            <img src="/imagenes/Rectangle 1.png" alt="">
+            <img src="/imagenes/Rectangle 1.png" alt="Mascotas que le dimos amor">
         </div>   
 
         <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
-              <div class="card">
-                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="...">
+              <div class="card card-galeria">
+                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="Seccion Galeria">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -218,8 +205,8 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
-                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="...">
+              <div class="card card-galeria">
+                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="Seccion galeria 2">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -227,8 +214,8 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
-                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="...">
+              <div class="card card-galeria">
+                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="Seccion galeria 3">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
@@ -236,8 +223,8 @@
               </div>
             </div>
             <div class="col">
-              <div class="card">
-                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="...">
+              <div class="card card-galeria">
+                <img src="/imagenes/capture_20240104175500945 1.png" class="card-img-top" alt="Seccion galeria 4">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -246,8 +233,6 @@
             </div>
           </div>
     </div>
-
-
 
 
     <!--SECCION FORMULARIO -->
@@ -272,7 +257,6 @@
                 <input type="submit" value="Enviar">
             </form>
         </div>
-
     </div>
     
     <!--SECCION FOOTER-->
@@ -323,6 +307,5 @@
     <!--Importando javascript-->
     <script src="/js/main.js"></script>
 
-    
 </body>
 </html> 

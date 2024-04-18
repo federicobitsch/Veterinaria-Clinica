@@ -188,4 +188,23 @@ SECCION*/
     font-size: 20px;
     margin: 0; /* Elimina el margen del título */
     /*/text-align: center;
-    */
+*/
+
+
+.servicios-medicos-main{
+    background-color: gray;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.texto-medicos {
+    display: flex;
+    font-size: 22px;
+    color: white;
+    text-align: start;
+    margin: 40px;
+    background-color: orange;
+}
+
+
